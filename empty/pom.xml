@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>jvm-tuning-empty</artifactId>
+  <build>
+    <plugins>
+      <plugin>
+	<artifactId>maven-jar-plugin</artifactId>
+	<configuration>
+	  <archive>
+	    <manifest>
+	      <mainClass>com.redhat.abaroni.jvm.tuning.empty.Main</mainClass>
+	    </manifest>
+	  </archive>
+	</configuration>
+	<groupId>org.apache.maven.plugins</groupId>
+	<version>3.2.0</version>
+      </plugin>
+    </plugins>
+  </build>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>jvm-tuning</artifactId>
+    <groupId>com.redhat.agbaroni.jvm-tuning</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+</project>
