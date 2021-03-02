@@ -13,9 +13,6 @@
 	    <includeLocale>it</includeLocale>
 	  </includeLocales>
 	  <launcher>empty=jvm.tuning.empty</launcher>
-	  <!-- <limitModules> -->
-	  <!--   <limitModule>java.base</limitModule> -->
-	  <!-- </limitModules> -->
 	  <noHeaderFiles>true</noHeaderFiles>
 	  <noManPages>true</noManPages>
 	  <stripDebug>true</stripDebug>
