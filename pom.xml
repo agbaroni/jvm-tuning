@@ -59,8 +59,10 @@
   </licenses>
   <modelVersion>4.0.0</modelVersion>
   <modules>
+    <module>bench</module>
     <module>empty</module>
     <module>empty-jlink</module>
+    <module>heap-filler</module>
   </modules>
   <packaging>pom</packaging>
   <scm>
